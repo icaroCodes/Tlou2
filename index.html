@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0a0d0e" />
+    <meta name="description" content="Ellie, Abby, Jackson e Seattle. Trailers, personagens, Modo Sem Volta e pré-venda de The Last of Us Part II Remastered para PS5." />
+    <title>The Last of Us Part II Remastered</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@500;700&family=Manrope:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- capa certa para cada orientação (mesmo critério de pickLayout no Hero) -->
+    <link rel="preload" as="image" href="/img/hero/cover.webp" media="(min-aspect-ratio: 85/100)" fetchpriority="high" />
+    <link rel="preload" as="image" href="/img/hero-m/cover.webp" media="(max-aspect-ratio: 85/100)" fetchpriority="high" />
+    <link rel="preload" as="image" href="/img/brand/logo.webp" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
